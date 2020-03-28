@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ddbuy-common-interface" />
+        <module name="ddbuy-common-service" />
+        <module name="ddbuy-entity" />
+        <module name="ddbuy-item-web" />
+        <module name="ddbuy-manager-web" />
+        <module name="ddbuy-mapper" />
+        <module name="ddbuy-portal-web" />
+        <module name="ddbuy-search-web" />
+        <module name="ddbuy-sso-web" />
+        <module name="ddbuy-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="ddbuy-common-interface" target="1.5" />
+      <module name="ddbuy-common-service" target="1.8" />
+      <module name="ddbuy-entity" target="1.5" />
+      <module name="ddbuy-item-web" target="1.8" />
+      <module name="ddbuy-manager-web" target="1.8" />
+      <module name="ddbuy-mapper" target="1.5" />
+      <module name="ddbuy-parent" target="1.8" />
+      <module name="ddbuy-portal-web" target="1.8" />
+      <module name="ddbuy-search-web" target="1.8" />
+      <module name="ddbuy-sso-web" target="1.8" />
+      <module name="ddbuy-test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ddbuy-common-service" options="-parameters" />
+      <module name="ddbuy-item-web" options="-parameters" />
+      <module name="ddbuy-manager-web" options="-parameters" />
+      <module name="ddbuy-parent" options="-parameters" />
+      <module name="ddbuy-portal-web" options="-parameters" />
+      <module name="ddbuy-search-web" options="-parameters" />
+      <module name="ddbuy-sso-web" options="-parameters" />
+    </option>
+  </component>
+</project>
